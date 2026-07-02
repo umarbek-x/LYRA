@@ -1,7 +1,18 @@
 package main
 
-import "log"
+import (
+	"log"
+
+	tea "github.com/charmbracelet/bubbletea"
+	"github.com/umarbek-x/LYRA/internals/tui"
+)
 
 func main() {
-	log.Println("Hello lyra")
+	// tui.ListFiles("/home/udev/Music/lyra")
+	m := tui.InitModel()
+	program := tea.NewProgram(m)
+	if _, err := program.Run(); err != nil {
+		log.Fatalln("Unable to run tui\nERROR: ", err)
+	}
+
 }
