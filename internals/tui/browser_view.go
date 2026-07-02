@@ -4,16 +4,16 @@ import (
 	"fmt"
 )
 
-func (m model) View() string {
+func browserView(m model) string {
 	// The header
 	s := "Wellcome to LYRA\n\nSelect Music you want to listen to\n\n"
 
 	// Iterate over our musics
-	for i, music := range m.music_list {
+	for i, music := range m.browser.music {
 
 		// Is the cursor pointing at this music?
 		cursor := " " // no cursor
-		if m.cursor == i {
+		if m.browser.cursor == i {
 			cursor = "*" // cursor!
 		}
 

@@ -12,7 +12,7 @@ import (
 type File struct {
 	Title    string
 	Artist   string
-	duration time.Duration
+	Duration time.Duration
 }
 
 // lists the mp3 files
@@ -50,23 +50,23 @@ func GetFile(directory, music string) File {
 			Title := parts[1]
 
 			// extract the duration of the file
-			duration, err := MP3Duration(directory + music)
+			duration, err := mp3Duration(directory + music)
 			if err != nil {
 				log.Fatal("unable to extract mp3 duration - ", err)
 			}
 
 			return File{
-				Title:    Title,
+				Title:    strings.TrimSuffix(Title, ".mp3"),
 				Artist:   Artist,
-				duration: duration,
+				Duration: duration,
 			}
 		}
 	}
 	return File{}
 }
 
-// extract the duration of the music 
-func MP3Duration(path string) (time.Duration, error) {
+// extract the duration of the music
+func mp3Duration(path string) (time.Duration, error) {
 	f, err := os.Open(path)
 	if err != nil {
 		return 0, nil
