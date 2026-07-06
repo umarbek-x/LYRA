@@ -1,23 +1,44 @@
 package tui
 
-func playerView(m model) string {
+import (
+	"fmt"
+	"log"
+
+	"github.com/umarbek-x/LYRA/internals/lyrics"
+	"github.com/umarbek-x/LYRA/internals/metadata"
+	"github.com/umarbek-x/LYRA/internals/player"
+)
+
+func PlayerView(m Model) (s string) {
 	// The header
-	s := "🎵 " + m.player.Song + "\n\n"
-
-	current := m.player.CurrentLine
-
-	if current > 0 {
-		s += m.player.Lyrics.Lines[current-1].Text + "\n"
+	s = "🎵 " + m.player.Song + "\n\n"
+	cache, err := metadata.ReadCache()
+	if err != nil {
+		log.Fatal(err)
 	}
 
-	s += "> " + m.player.Lyrics.Lines[current].Text + "\n"
-	// The footer
 
-	if current+1 < len(m.player.Lyrics.Lines) {
-		s += m.player.Lyrics.Lines[current+1].Text + "\n"
+	if lrc, ok := cache[m.player.Song]; ok {
+		for i := 0; i < len(lrc.Lines); i++ {
+			s += fmt.Sprintf("%s\n", lrc.Lines[i].Text)
+		}
+	} else {
+		file := player.GetFile(m.browser.directory, m.player.Song)
+
+		s += "title" + file.Title + "\n"
+		s += "artist"+ file.Artist + "\n"
+
+		formatedLyrics, err := lyrics.Parse(file.Title, file.Artist, file.Duration)
+		if err != nil {
+			log.Fatal(err)
+		}
+		lyrics.SaveTOFile(formatedLyrics)
+		for i := 0; i < len(formatedLyrics.Lines); i++ {
+			s += fmt.Sprintf("%s\n", lrc.Lines[i].Text)
+		}
 	}
-	
-	s += "\nPress q to quit.\n"
+
+	s += "\nPress q to quit || p to pause or resume.\n"
 
 	// Send the UI for rendering
 	return s

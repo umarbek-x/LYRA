@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func browserView(m model) string {
+func browserView(m Model) string {
 	// The header
 	s := "Wellcome to LYRA\n\nSelect Music you want to listen to\n\n"
 
@@ -14,7 +14,7 @@ func browserView(m model) string {
 		// Is the cursor pointing at this music?
 		cursor := " " // no cursor
 		if m.browser.cursor == i {
-			cursor = "*" // cursor!
+			cursor = ">" // cursor!
 		}
 
 		// Render the row

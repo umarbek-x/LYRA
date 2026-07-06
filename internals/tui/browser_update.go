@@ -1,15 +1,11 @@
 package tui
 
 import (
-	"log"
-
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/umarbek-x/LYRA/internals/lyrics"
-	"github.com/umarbek-x/LYRA/internals/metadata"
 	"github.com/umarbek-x/LYRA/internals/player"
 )
 
-func updateBrowser(m model, msg tea.Msg) (tea.Model, tea.Cmd) {
+func updateBrowser(m Model, msg tea.Msg) (tea.Model, tea.Cmd) {
 	switch msg := msg.(type) {
 
 	// Is it a key press?
@@ -37,45 +33,20 @@ func updateBrowser(m model, msg tea.Msg) (tea.Model, tea.Cmd) {
 		// The "enter" key and the space bar toggle the selected state
 		// for the item that the cursor is pointing at.
 		case "enter", "space":
-			m.player.Song = m.browser.music[m.browser.cursor]
-			// get the file information
-			file := player.GetFile(m.browser.directory, m.browser.music[m.browser.cursor])
-			// get the file from cache .json
-			var flrc lyrics.JsonLyrics
-			cache, err := metadata.ReadCache()
-			if err != nil {
-				log.Fatal(err)
-			}
-			// find the expected music
-			for _, value := range cache {
-				if value.Name == file.Title && value.Artist_Name == file.Artist {
-					flrc = value
-				}
-			}
-			if flrc.Name == "" {
+			music := player.GetFile(m.browser.directory, m.browser.music[m.browser.cursor])
+			m.player.Song = music.Title
 
-				// parce the lyrics if there is no lyrics in cache
-				plrc, err := lyrics.Parse(file.Title, file.Artist, file.Duration)
-				if err != nil {
-					log.Fatal(err)
-				}
-				// format the lyrics
-				flrc, err = lyrics.ParseLyricsLineWithTime(plrc)
-				if err != nil {
-					log.Fatal(err)
-				}
-				// save to file
-				err = lyrics.SaveTOFile(flrc)
-				if err != nil {
-					log.Fatal(err)
-				}
-			}
-			m.player.Lyrics = flrc
 			go func() {
-
 				// play the music
-				player.Play(m.browser.directory + m.browser.music[m.browser.cursor])
+				for i := 0 + m.browser.cursor; i < len(m.browser.music); i++ {
+					player.Play(m.browser.directory + m.browser.music[i])
+					if i == len(m.browser.music) {
+						i = 0
+						m.browser.cursor = 0
+					}
+				}
 			}()
+			// change screen to player screen
 			m.screen = PlayerScreen
 		}
 	}

@@ -3,14 +3,11 @@ package tui
 import (
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/gopxl/beep/speaker"
-	"github.com/umarbek-x/LYRA/internals/lyrics"
-	"github.com/umarbek-x/LYRA/internals/player"
 )
 
 var isLucked bool
 
-func updatePlayer(m model, msg tea.Msg) (tea.Model, tea.Cmd) {
-
+func updatePlayer(m Model, msg tea.Msg) (tea.Model, tea.Cmd) {
 
 	switch msg := msg.(type) {
 

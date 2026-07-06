@@ -59,15 +59,3 @@ func Play(music string) {
 	<-done
 }
 
-func Position() time.Duration {
-	mu.RLock()
-	defer mu.RUnlock()
-
-	if currentStreamer == nil {
-		return 0
-	}
-
-	samples := currentStreamer.Position()
-
-	return time.Duration(samples) * time.Second / time.Duration(currentFormat.SampleRate)
-}

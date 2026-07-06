@@ -15,7 +15,7 @@ const (
 	PlayerScreen
 )
 
-type model struct {
+type Model struct {
 	screen  Screen
 	browser Browser_Model
 	player  Player_Model
@@ -39,8 +39,8 @@ type Player_Model struct {
 	Paused bool
 }
 
-func InitModel() model {
-	return model{
+func InitModel() Model {
+	return Model{
 		screen: BrowserScreen,
 		browser: Browser_Model{
 			music:     player.ListFiles("/home/udev/Music/lyra"),
@@ -57,6 +57,6 @@ func InitModel() model {
 	}
 }
 
-func (m model) Init() tea.Cmd {
+func (m Model) Init() tea.Cmd {
 	return nil
 }
