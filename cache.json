@@ -1,203 +1,390 @@
 [
     {
-        "name": "Dracula",
+        "name": "The Less I Know The Better",
         "artistName": "Tame Impala",
-        "duration": 233.337333,
+        "duration": 219,
         "line_w_time": [
             {
-                "duration": 28088000000,
-                "text": " The morning light is turning blue, the feeling is bizarre"
+                "duration": 24059000000,
+                "text": " Someone said they left together"
             },
             {
-                "duration": 33004000000,
-                "text": " The night is almost over, I still don't know where you are"
+                "duration": 28057000000,
+                "text": " I ran out the door to get her"
             },
             {
-                "duration": 37020000000,
-                "text": " The shadows, yeah, they keep me pretty like a movie star"
+                "duration": 33009000000,
+                "text": " She was holding hands with Trevor"
             },
             {
-                "duration": 41061000000,
-                "text": " Daylight makes me feel like Dracula"
+                "duration": 37004000000,
+                "text": " Not the greatest feeling ever"
             },
             {
-                "duration": 44049000000,
+                "duration": 41000000000,
+                "text": " Said, \"Pull yourself together"
+            },
+            {
+                "duration": 45001000000,
+                "text": " You should try your luck with Heather\""
+            },
+            {
+                "duration": 49009000000,
+                "text": " Then I heard they slept together"
+            },
+            {
+                "duration": 53051000000,
+                "text": " Oh, the less I know the better"
+            },
+            {
+                "duration": 58092000000,
                 "text": ""
             },
             {
-                "duration": 46009000000,
-                "text": " In the end I hope it's you and me"
+                "duration": 62002000000,
+                "text": " The less I know the better"
             },
             {
-                "duration": 50021000000,
-                "text": " In the darkness I would never leave"
+                "duration": 66000000000,
+                "text": " Oh my love, can't you see yourself by my side?"
             },
             {
-                "duration": 53037000000,
-                "text": " You won't ever see me in the light of day"
+                "duration": 74003000000,
+                "text": " No surprise when you're on his shoulder like every night"
             },
             {
-                "duration": 58008000000,
-                "text": " It's far too late"
+                "duration": 82005000000,
+                "text": " Oh my love, can't you see that you're on my mind?"
             },
             {
-                "duration": 60014000000,
-                "text": " The time has come"
+                "duration": 91000000000,
+                "text": " Don't suppose we could convince your lover to change his mind"
             },
             {
-                "duration": 62022000000,
+                "duration": 99002000000,
+                "text": " So goodbye"
+            },
+            {
+                "duration": 102080000000,
                 "text": ""
             },
             {
-                "duration": 62024000000,
-                "text": " I'm on the verge of caving in, I run back to the dark"
+                "duration": 107002000000,
+                "text": " She said, \"It's not now or never"
             },
             {
-                "duration": 66031000000,
-                "text": " Now I'm Mr. Charisma, fucking Pablo Escobar"
+                "duration": 111005000000,
+                "text": " Wait ten years, we'll be together\""
             },
             {
-                "duration": 70044000000,
-                "text": " My friends are saying \"Shut up, Kevin, just get in the car\""
+                "duration": 115002000000,
+                "text": " I said, \"Better late than never"
             },
             {
-                "duration": 74087000000,
-                "text": " I just wanna be right where you are"
+                "duration": 119006000000,
+                "text": " Just don't make me wait forever\""
             },
             {
-                "duration": 77096000000,
-                "text": " Oh, my love"
-            },
-            {
-                "duration": 79062000000,
+                "duration": 124029000000,
                 "text": ""
             },
             {
-                "duration": 79065000000,
-                "text": " In the end I hope it's you and me"
+                "duration": 128000000000,
+                "text": " Don't make me wait forever"
             },
             {
-                "duration": 83072000000,
-                "text": " In the darkness I would never leave"
-            },
-            {
-                "duration": 86072000000,
-                "text": " We both saw this moment coming from afar"
-            },
-            {
-                "duration": 91034000000,
-                "text": " Now here we are"
-            },
-            {
-                "duration": 93064000000,
+                "duration": 132091000000,
                 "text": ""
             },
             {
-                "duration": 93066000000,
-                "text": " Run from the sunlight, Dracula"
+                "duration": 136009000000,
+                "text": " Don't make me wait forever"
             },
             {
-                "duration": 97090000000,
-                "text": " Run from the sunlight, Dracula"
+                "duration": 140005000000,
+                "text": " Oh my love, can't you see yourself by my side?"
             },
             {
-                "duration": 102007000000,
-                "text": " Run from the sunlight, Dracula"
+                "duration": 148008000000,
+                "text": " I don't suppose you could convince your lover to change his mind"
             },
             {
-                "duration": 106022000000,
-                "text": " Isn't the view spectacular?"
+                "duration": 156059000000,
+                "text": " I was doing fine without ya"
             },
             {
-                "duration": 112002000000,
+                "duration": 161005000000,
+                "text": " 'Til I saw your face, now I can't erase"
+            },
+            {
+                "duration": 165004000000,
+                "text": " Giving in to all his bullshit"
+            },
+            {
+                "duration": 169004000000,
+                "text": " Is this what you want? Is this who you are?"
+            },
+            {
+                "duration": 173054000000,
+                "text": " I was doing fine without ya"
+            },
+            {
+                "duration": 177004000000,
+                "text": " 'Til I saw your eyes turn away from mine"
+            },
+            {
+                "duration": 181058000000,
+                "text": " Oh, sweet darling, where he wants you"
+            },
+            {
+                "duration": 185004000000,
+                "text": " Said, \"Come on Superman, say your stupid line\""
+            },
+            {
+                "duration": 190020000000,
                 "text": ""
             },
             {
-                "duration": 128080000000,
-                "text": " But please"
+                "duration": 193051000000,
+                "text": " Said, \"Come on Superman, say your stupid line\""
             },
             {
-                "duration": 130075000000,
-                "text": " Do you think about what it might mean?"
-            },
-            {
-                "duration": 134089000000,
-                "text": " 'Cos I dream about you in my sleep"
-            },
-            {
-                "duration": 139010000000,
-                "text": " Would you ever love someone like me?"
-            },
-            {
-                "duration": 143034000000,
-                "text": " Like me?"
-            },
-            {
-                "duration": 145041000000,
+                "duration": 199047000000,
                 "text": ""
             },
             {
-                "duration": 146071000000,
-                "text": " In the end I hope it's you and me"
+                "duration": 201057000000,
+                "text": " Said, \"Come on Superman, say your stupid line\""
             },
             {
-                "duration": 150066000000,
-                "text": " In the darkness I would never leave"
+                "duration": 205037000000,
+                "text": ""
+            }
+        ]
+    },
+    {
+        "name": "New Person, Same Old Mistakes",
+        "artistName": "Tame Impala",
+        "duration": 362,
+        "line_w_time": [
+            {
+                "duration": 41011000000,
+                "text": " I can just hear them now"
             },
             {
-                "duration": 153073000000,
-                "text": " We both saw this moment coming from afar"
+                "duration": 44036000000,
+                "text": " \"How could you let us down?\""
             },
             {
-                "duration": 158014000000,
-                "text": " Now here we are"
+                "duration": 47008000000,
+                "text": " But they don't know what I found"
             },
             {
-                "duration": 160024000000,
+                "duration": 50016000000,
+                "text": " Or see it from this way 'round"
+            },
+            {
+                "duration": 53059000000,
+                "text": " Feeling it overtake"
+            },
+            {
+                "duration": 57007000000,
+                "text": " All that I used to hate"
+            },
+            {
+                "duration": 59085000000,
+                "text": " One by one, every trait"
+            },
+            {
+                "duration": 62068000000,
+                "text": " I tried, but it's way too late"
+            },
+            {
+                "duration": 66034000000,
+                "text": " All the signs I don't read"
+            },
+            {
+                "duration": 69002000000,
+                "text": " Two sides of me can't agree"
+            },
+            {
+                "duration": 72033000000,
+                "text": " Will I be in too deep?"
+            },
+            {
+                "duration": 75079000000,
+                "text": " Going with what I always longed for"
+            },
+            {
+                "duration": 82057000000,
+                "text": " Feel like a brand new person (but you'll make the same old mistakes)"
+            },
+            {
+                "duration": 87014000000,
+                "text": " I don't care, I'm in love (stop before it's too late, I know)"
+            },
+            {
+                "duration": 95006000000,
+                "text": " Feel like a brand new person (but you'll make the same old mistakes)"
+            },
+            {
+                "duration": 99065000000,
+                "text": " I finally know what it's like (you don't have what it takes)"
+            },
+            {
+                "duration": 103094000000,
+                "text": " Stop before it's too late, I know there's too much at stake"
+            },
+            {
+                "duration": 110030000000,
+                "text": " Making the same mistakes (and I still don't know why it's happening)"
+            },
+            {
+                "duration": 116046000000,
+                "text": " Stop while it's not too late (and I still don't know)"
+            },
+            {
+                "duration": 123001000000,
+                "text": " Finally taking flight"
+            },
+            {
+                "duration": 125087000000,
+                "text": " I know you don't think it's right"
+            },
+            {
+                "duration": 129003000000,
+                "text": " I know that you think it's fake"
+            },
+            {
+                "duration": 132058000000,
+                "text": " Maybe fake's what I like"
+            },
+            {
+                "duration": 135022000000,
+                "text": " The point is, I have the right"
+            },
+            {
+                "duration": 138054000000,
+                "text": " Not thinking in black and white"
+            },
+            {
+                "duration": 141082000000,
+                "text": " I'm thinking it's worth the fight"
+            },
+            {
+                "duration": 145001000000,
+                "text": " Soon to be out of sight"
+            },
+            {
+                "duration": 148036000000,
+                "text": " Knowing it all this time"
+            },
+            {
+                "duration": 151037000000,
+                "text": " Going with what I always longed for"
+            },
+            {
+                "duration": 158035000000,
+                "text": " Feel like a brand new person (but you'll make the same old mistakes)"
+            },
+            {
+                "duration": 163001000000,
+                "text": " I don't care, I'm in love (stop before it's too late)"
+            },
+            {
+                "duration": 170087000000,
+                "text": " Feel like a brand new person (but you'll make the same old mistakes)"
+            },
+            {
+                "duration": 175022000000,
+                "text": " So how will I know I've gone too far? (You don't have what it takes)"
+            },
+            {
+                "duration": 179079000000,
+                "text": " Stop before it's too late"
+            },
+            {
+                "duration": 184033000000,
+                "text": " Man, I know that it's hard to digest"
+            },
+            {
+                "duration": 191002000000,
+                "text": " But maybe your story ain't so different from the rest"
+            },
+            {
+                "duration": 196097000000,
+                "text": " And I know it seems wrong to accept"
+            },
+            {
+                "duration": 203069000000,
+                "text": " But you've got your demons, and she's got her regrets"
+            },
+            {
+                "duration": 209070000000,
+                "text": " And I know that it's hard to digest"
+            },
+            {
+                "duration": 216031000000,
+                "text": " A realization is as good as a guess"
+            },
+            {
+                "duration": 222002000000,
+                "text": " And I know it seems wrong to accept"
+            },
+            {
+                "duration": 228092000000,
+                "text": " But you've got your demons, and she's got her regrets"
+            },
+            {
+                "duration": 235020000000,
+                "text": " But you've got your demons, and she's got her regrets"
+            },
+            {
+                "duration": 243010000000,
                 "text": ""
             },
             {
-                "duration": 160026000000,
-                "text": " So run from the sunlight, Dracula"
+                "duration": 278029000000,
+                "text": " Feel like a brand new person, so how will I know that it's right?"
             },
             {
-                "duration": 164066000000,
-                "text": " Run from the sunlight, Dracula"
+                "duration": 288037000000,
+                "text": ""
             },
             {
-                "duration": 168083000000,
-                "text": " Run from the sunlight, Dracula"
+                "duration": 291036000000,
+                "text": " In a new direction, so how will I know I've gone too far?"
             },
             {
-                "duration": 173002000000,
-                "text": " Isn't the view spectacular?"
+                "duration": 302016000000,
+                "text": " (Stop thinking that the only option was) I feel like a brand new person"
             },
             {
-                "duration": 177021000000,
-                "text": " Run from the sunlight, Dracula"
+                "duration": 307084000000,
+                "text": " I finally know what it's like (stop thinking that the only option was)"
             },
             {
-                "duration": 181036000000,
-                "text": " Run from the sunlight, Dracula"
+                "duration": 316052000000,
+                "text": " In a new direction, so how will I know I've gone too far?"
             },
             {
-                "duration": 185059000000,
-                "text": " Isn't the view spectacular?"
+                "duration": 327037000000,
+                "text": " (Stop thinking that the only option was)"
             },
             {
-                "duration": 189072000000,
-                "text": " Run from the sunlight, Dracula"
+                "duration": 333031000000,
+                "text": " And I know it's hard to describe"
             },
             {
-                "duration": 193087000000,
-                "text": " Run from the sunlight, Dracula"
+                "duration": 339082000000,
+                "text": " (Stop thinking that the only option was) in a new direction"
             },
             {
-                "duration": 198007000000,
-                "text": " Isn't the view spectacular?"
+                "duration": 345054000000,
+                "text": " So how will I know that it's right?"
             },
             {
-                "duration": 202023000000,
+                "duration": 349032000000,
                 "text": ""
             }
         ]
@@ -413,6 +600,432 @@
             },
             {
                 "duration": 176053000000,
+                "text": ""
+            }
+        ]
+    },
+    {
+        "name": "Harvey",
+        "artistName": "Her's",
+        "duration": 211.16,
+        "line_w_time": [
+            {
+                "duration": 31066000000,
+                "text": " Some people think I'm acting worse for wear"
+            },
+            {
+                "duration": 34095000000,
+                "text": " Suffice to say this is a quaint affair"
+            },
+            {
+                "duration": 38046000000,
+                "text": " But no one really knows me like Harvey"
+            },
+            {
+                "duration": 41091000000,
+                "text": " And once you've met him I'm sure you'll agree"
+            },
+            {
+                "duration": 45076000000,
+                "text": " (Yeah I get it)"
+            },
+            {
+                "duration": 47008000000,
+                "text": " (You wanna know)"
+            },
+            {
+                "duration": 48056000000,
+                "text": " (Who he is)"
+            },
+            {
+                "duration": 50015000000,
+                "text": " (Where we go)"
+            },
+            {
+                "duration": 51093000000,
+                "text": " (Yeah I get it)"
+            },
+            {
+                "duration": 52064000000,
+                "text": " (You wanna see)"
+            },
+            {
+                "duration": 55020000000,
+                "text": " (What it is)"
+            },
+            {
+                "duration": 56018000000,
+                "text": " (Him and me)"
+            },
+            {
+                "duration": 57064000000,
+                "text": " Harvey"
+            },
+            {
+                "duration": 59039000000,
+                "text": " Nobody knows what I see"
+            },
+            {
+                "duration": 62073000000,
+                "text": " Nobody knows I'm waiting"
+            },
+            {
+                "duration": 66008000000,
+                "text": " Waiting for you to call"
+            },
+            {
+                "duration": 71011000000,
+                "text": " Harvey"
+            },
+            {
+                "duration": 72086000000,
+                "text": " Nobody knows what I see"
+            },
+            {
+                "duration": 75045000000,
+                "text": " Everyone thinks I'm crazy"
+            },
+            {
+                "duration": 79086000000,
+                "text": " Crazy for you, oh boy"
+            },
+            {
+                "duration": 83052000000,
+                "text": ""
+            },
+            {
+                "duration": 85072000000,
+                "text": " Barked at the moon amid an empty street"
+            },
+            {
+                "duration": 89015000000,
+                "text": " We felt the remnants of the evening heat"
+            },
+            {
+                "duration": 92043000000,
+                "text": " Said Harvey let me be the one to say"
+            },
+            {
+                "duration": 96002000000,
+                "text": " I wouldn't dream this any other way"
+            },
+            {
+                "duration": 99044000000,
+                "text": " (Yeah I get it)"
+            },
+            {
+                "duration": 101010000000,
+                "text": " (You wanna know)"
+            },
+            {
+                "duration": 102070000000,
+                "text": " (Who he is)"
+            },
+            {
+                "duration": 104021000000,
+                "text": " (Where we go)"
+            },
+            {
+                "duration": 106012000000,
+                "text": " (Yeah I get it)"
+            },
+            {
+                "duration": 108003000000,
+                "text": " (You wanna see)"
+            },
+            {
+                "duration": 109049000000,
+                "text": " (What it is)"
+            },
+            {
+                "duration": 110098000000,
+                "text": " (Him and me)"
+            },
+            {
+                "duration": 111077000000,
+                "text": " Harvey"
+            },
+            {
+                "duration": 113045000000,
+                "text": " Nobody knows what I see"
+            },
+            {
+                "duration": 116080000000,
+                "text": " Nobody knows I'm waiting"
+            },
+            {
+                "duration": 119043000000,
+                "text": " Waiting for you to call"
+            },
+            {
+                "duration": 125014000000,
+                "text": " Harvey"
+            },
+            {
+                "duration": 126096000000,
+                "text": " Nobody knows what I see"
+            },
+            {
+                "duration": 129059000000,
+                "text": " Everyone thinks I'm crazy"
+            },
+            {
+                "duration": 132068000000,
+                "text": " Crazy for you, oh boy"
+            },
+            {
+                "duration": 152040000000,
+                "text": " Harvey"
+            },
+            {
+                "duration": 153099000000,
+                "text": " Nobody knows what I see"
+            },
+            {
+                "duration": 157056000000,
+                "text": " Everyone thinks I'm crazy"
+            },
+            {
+                "duration": 160074000000,
+                "text": " Crazy for you, oh boy"
+            },
+            {
+                "duration": 165099000000,
+                "text": " Harvey"
+            },
+            {
+                "duration": 167059000000,
+                "text": " Nobody knows what I see"
+            },
+            {
+                "duration": 170093000000,
+                "text": " Nobody knows I'm waiting"
+            },
+            {
+                "duration": 174030000000,
+                "text": " Waiting for you to call"
+            },
+            {
+                "duration": 179036000000,
+                "text": " Harvey"
+            },
+            {
+                "duration": 181009000000,
+                "text": " Nobody knows what I see"
+            },
+            {
+                "duration": 183067000000,
+                "text": " Everyone thinks I'm crazy"
+            },
+            {
+                "duration": 186069000000,
+                "text": " Crazy for you, oh boy"
+            },
+            {
+                "duration": 187004000000,
+                "text": ""
+            }
+        ]
+    },
+    {
+        "name": "Dracula",
+        "artistName": "Tame Impala",
+        "duration": 233.337333,
+        "line_w_time": [
+            {
+                "duration": 28088000000,
+                "text": " The morning light is turning blue, the feeling is bizarre"
+            },
+            {
+                "duration": 33004000000,
+                "text": " The night is almost over, I still don't know where you are"
+            },
+            {
+                "duration": 37020000000,
+                "text": " The shadows, yeah, they keep me pretty like a movie star"
+            },
+            {
+                "duration": 41061000000,
+                "text": " Daylight makes me feel like Dracula"
+            },
+            {
+                "duration": 44049000000,
+                "text": ""
+            },
+            {
+                "duration": 46009000000,
+                "text": " In the end I hope it's you and me"
+            },
+            {
+                "duration": 50021000000,
+                "text": " In the darkness I would never leave"
+            },
+            {
+                "duration": 53037000000,
+                "text": " You won't ever see me in the light of day"
+            },
+            {
+                "duration": 58008000000,
+                "text": " It's far too late"
+            },
+            {
+                "duration": 60014000000,
+                "text": " The time has come"
+            },
+            {
+                "duration": 62022000000,
+                "text": ""
+            },
+            {
+                "duration": 62024000000,
+                "text": " I'm on the verge of caving in, I run back to the dark"
+            },
+            {
+                "duration": 66031000000,
+                "text": " Now I'm Mr. Charisma, fucking Pablo Escobar"
+            },
+            {
+                "duration": 70044000000,
+                "text": " My friends are saying \"Shut up, Kevin, just get in the car\""
+            },
+            {
+                "duration": 74087000000,
+                "text": " I just wanna be right where you are"
+            },
+            {
+                "duration": 77096000000,
+                "text": " Oh, my love"
+            },
+            {
+                "duration": 79062000000,
+                "text": ""
+            },
+            {
+                "duration": 79065000000,
+                "text": " In the end I hope it's you and me"
+            },
+            {
+                "duration": 83072000000,
+                "text": " In the darkness I would never leave"
+            },
+            {
+                "duration": 86072000000,
+                "text": " We both saw this moment coming from afar"
+            },
+            {
+                "duration": 91034000000,
+                "text": " Now here we are"
+            },
+            {
+                "duration": 93064000000,
+                "text": ""
+            },
+            {
+                "duration": 93066000000,
+                "text": " Run from the sunlight, Dracula"
+            },
+            {
+                "duration": 97090000000,
+                "text": " Run from the sunlight, Dracula"
+            },
+            {
+                "duration": 102007000000,
+                "text": " Run from the sunlight, Dracula"
+            },
+            {
+                "duration": 106022000000,
+                "text": " Isn't the view spectacular?"
+            },
+            {
+                "duration": 112002000000,
+                "text": ""
+            },
+            {
+                "duration": 128080000000,
+                "text": " But please"
+            },
+            {
+                "duration": 130075000000,
+                "text": " Do you think about what it might mean?"
+            },
+            {
+                "duration": 134089000000,
+                "text": " 'Cos I dream about you in my sleep"
+            },
+            {
+                "duration": 139010000000,
+                "text": " Would you ever love someone like me?"
+            },
+            {
+                "duration": 143034000000,
+                "text": " Like me?"
+            },
+            {
+                "duration": 145041000000,
+                "text": ""
+            },
+            {
+                "duration": 146071000000,
+                "text": " In the end I hope it's you and me"
+            },
+            {
+                "duration": 150066000000,
+                "text": " In the darkness I would never leave"
+            },
+            {
+                "duration": 153073000000,
+                "text": " We both saw this moment coming from afar"
+            },
+            {
+                "duration": 158014000000,
+                "text": " Now here we are"
+            },
+            {
+                "duration": 160024000000,
+                "text": ""
+            },
+            {
+                "duration": 160026000000,
+                "text": " So run from the sunlight, Dracula"
+            },
+            {
+                "duration": 164066000000,
+                "text": " Run from the sunlight, Dracula"
+            },
+            {
+                "duration": 168083000000,
+                "text": " Run from the sunlight, Dracula"
+            },
+            {
+                "duration": 173002000000,
+                "text": " Isn't the view spectacular?"
+            },
+            {
+                "duration": 177021000000,
+                "text": " Run from the sunlight, Dracula"
+            },
+            {
+                "duration": 181036000000,
+                "text": " Run from the sunlight, Dracula"
+            },
+            {
+                "duration": 185059000000,
+                "text": " Isn't the view spectacular?"
+            },
+            {
+                "duration": 189072000000,
+                "text": " Run from the sunlight, Dracula"
+            },
+            {
+                "duration": 193087000000,
+                "text": " Run from the sunlight, Dracula"
+            },
+            {
+                "duration": 198007000000,
+                "text": " Isn't the view spectacular?"
+            },
+            {
+                "duration": 202023000000,
                 "text": ""
             }
         ]
@@ -671,53 +1284,5 @@
                 "text": ""
             }
         ]
-    },
-    {
-        "name": "",
-        "artistName": "",
-        "duration": 0,
-        "line_w_time": null
-    },
-    {
-        "name": "",
-        "artistName": "",
-        "duration": 0,
-        "line_w_time": null
-    },
-    {
-        "name": "",
-        "artistName": "",
-        "duration": 0,
-        "line_w_time": null
-    },
-    {
-        "name": "",
-        "artistName": "",
-        "duration": 0,
-        "line_w_time": null
-    },
-    {
-        "name": "",
-        "artistName": "",
-        "duration": 0,
-        "line_w_time": null
-    },
-    {
-        "name": "",
-        "artistName": "",
-        "duration": 0,
-        "line_w_time": null
-    },
-    {
-        "name": "",
-        "artistName": "",
-        "duration": 0,
-        "line_w_time": null
-    },
-    {
-        "name": "",
-        "artistName": "",
-        "duration": 0,
-        "line_w_time": null
     }
 ]

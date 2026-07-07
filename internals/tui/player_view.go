@@ -17,25 +17,22 @@ func PlayerView(m Model) (s string) {
 		log.Fatal(err)
 	}
 
-
 	if lrc, ok := cache[m.player.Song]; ok {
 		for i := 0; i < len(lrc.Lines); i++ {
 			s += fmt.Sprintf("%s\n", lrc.Lines[i].Text)
 		}
 	} else {
-		file := player.GetFile(m.browser.directory, m.player.Song)
-
-		s += "title" + file.Title + "\n"
-		s += "artist"+ file.Artist + "\n"
+		file := player.GetFile(m.browser.directory, m.browser.music[m.browser.cursor])
 
 		formatedLyrics, err := lyrics.Parse(file.Title, file.Artist, file.Duration)
 		if err != nil {
 			log.Fatal(err)
 		}
-		lyrics.SaveTOFile(formatedLyrics)
+
 		for i := 0; i < len(formatedLyrics.Lines); i++ {
-			s += fmt.Sprintf("%s\n", lrc.Lines[i].Text)
+			s += fmt.Sprintf("%s\n", formatedLyrics.Lines[i].Text)
 		}
+		lyrics.SaveTOFile(formatedLyrics)
 	}
 
 	s += "\nPress q to quit || p to pause or resume.\n"
