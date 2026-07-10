@@ -19,7 +19,7 @@ func PlayerView(m Model) (s string) {
 
 	if lrc, ok := cache[m.player.Song]; ok {
 		for i := 0; i < len(lrc.Lines); i++ {
-			s += fmt.Sprintf("%s\n", lrc.Lines[i].Text)
+			s += fmt.Sprintf("%d. %s\n", i+1, lrc.Lines[i].Text)
 		}
 	} else {
 		file := player.GetFile(m.browser.directory, m.browser.music[m.browser.cursor])
@@ -30,7 +30,7 @@ func PlayerView(m Model) (s string) {
 		}
 
 		for i := 0; i < len(formatedLyrics.Lines); i++ {
-			s += fmt.Sprintf("%s\n", formatedLyrics.Lines[i].Text)
+			s += fmt.Sprintf("%d. %s\n", i+1, formatedLyrics.Lines[i].Text)
 		}
 		lyrics.SaveTOFile(formatedLyrics)
 	}

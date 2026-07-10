@@ -40,7 +40,7 @@ func updateBrowser(m Model, msg tea.Msg) (tea.Model, tea.Cmd) {
 				// play the music
 				for i := 0 + m.browser.cursor; i < len(m.browser.music); i++ {
 					player.Play(m.browser.directory + m.browser.music[i])
-					if i == len(m.browser.music) {
+					if i == len(m.browser.music)-1 {
 						i = 0
 						m.browser.cursor = 0
 					}
