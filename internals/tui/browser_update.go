@@ -44,10 +44,11 @@ func updateBrowser(m Model, msg tea.Msg) (tea.Model, tea.Cmd) {
 						i = 0
 						m.browser.cursor = 0
 					}
+
 				}
 			}()
 			// change screen to player screen
-			m.screen = PlayerScreen
+			// m.screen = PlayerScreen
 		}
 	}
 
