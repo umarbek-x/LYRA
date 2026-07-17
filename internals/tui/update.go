@@ -1,21 +1,17 @@
 package tui
 
-import (
-	tea "github.com/charmbracelet/bubbletea"
-)
+import tea "charm.land/bubbletea/v2"
 
 func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
-	switch m.screen {
+	switch msg := msg.(type) {
+	// is it a key press
+	case tea.KeyPressMsg:
+		switch msg.String() {
+		// if the user presses Ctrl+c or q the program will quit
+		case "Ctrl+c", "q":
+			return m, tea.Quit
 
-	case BrowserScreen:
-		return updateBrowser(m, msg)
-
-	case PlayerScreen:
-
-		return updatePlayer(m, msg)
+		}
 	}
-
-	// Return the updated model to the Bubble Tea runtime for processing.
-	// Note that we're not returning a command.
 	return m, nil
 }

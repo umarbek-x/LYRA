@@ -1,62 +1,25 @@
 package tui
 
 import (
-	"time"
-
-	tea "github.com/charmbracelet/bubbletea"
-	"github.com/umarbek-x/LYRA/internals/lyrics"
-	"github.com/umarbek-x/LYRA/internals/player"
-)
-
-type Screen int
-
-const (
-	BrowserScreen Screen = iota
-	PlayerScreen
+	tea "charm.land/bubbletea/v2"
+	"github.com/umarbek-x/LYRA/internals/metadata"
 )
 
 type Model struct {
-	screen  Screen
-	browser Browser_Model
-	player  Player_Model
+	Music     []string
+	Cursor    int
+	Directory string
 }
 
-type Browser_Model struct {
-	music     []string
-	cursor    int
-	directory string
-}
-
-type Player_Model struct {
-	Song string
-
-	Position time.Duration
-	Duration time.Duration
-
-	Lyrics      lyrics.JsonLyrics
-	CurrentLine int
-
-	Paused bool
-}
-
-func InitModel() Model {
+func InitialModel() Model {
+	dir := "/home/udev/Music/lyra"
 	return Model{
-		screen: BrowserScreen,
-		browser: Browser_Model{
-			music:     player.ListFiles("/home/udev/Music/lyra"),
-			directory: "/home/udev/Music/lyra/",
-		},
-		player: Player_Model{
-			Song:     "",
-			Position: 0,
-			Duration: 0,
-			Lyrics:   lyrics.JsonLyrics{},
-			CurrentLine: 0,
-			Paused: false,
-		},
+		Directory: dir,
+		Music:     metadata.GetMusicNames(dir),
 	}
 }
 
-func (m Model) Init() tea.Cmd {
+func (s Model) Init() tea.Cmd {
+	// no io for now
 	return nil
 }

@@ -3,14 +3,13 @@ package main
 import (
 	"log"
 
-	tea "github.com/charmbracelet/bubbletea"
+	tea "charm.land/bubbletea/v2"
 	"github.com/umarbek-x/LYRA/internals/tui"
 )
 
 func main() {
-	m := tui.InitModel()
-	program := tea.NewProgram(m)
-	if _, err := program.Run(); err != nil {
-		log.Fatalln("Unable to run tui\nERROR: ", err)
+	p := tea.NewProgram(tui.InitialModel())
+	if _, err := p.Run(); err != nil {
+		log.Fatal(err)
 	}
 }
