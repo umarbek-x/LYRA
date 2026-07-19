@@ -2,6 +2,7 @@ package tui
 
 import (
 	tea "charm.land/bubbletea/v2"
+	"github.com/gopxl/beep/speaker"
 	"github.com/umarbek-x/LYRA/internals/player"
 )
 
@@ -18,14 +19,22 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 				m.Cursor--
 			}
 		case "down":
-			if m.Cursor < len(m.Music)-1 {
+			if m.Cursor < len(m.Music.Songs)-1 {
 				m.Cursor++
+			}
+		case "p":
+			if m.Music.IsPaused {
+				speaker.Resume()
+				m.Music.IsPaused = false
+			} else {
+				speaker.Suspend()
+				m.Music.IsPaused = true
 			}
 		case "enter", "space":
 			go func() {
-				m.Current = m.Music[m.Cursor]
-				player.Play(m.Directory + "/" + m.Current)
-				m.Current = ""
+				m.Music.Current = m.Music.Songs[m.Cursor]
+				player.Play(m.Music.Directory + "/" + m.Music.Current)
+				m.Music.Current = ""
 			}()
 		}
 

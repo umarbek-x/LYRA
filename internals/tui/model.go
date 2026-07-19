@@ -6,18 +6,25 @@ import (
 )
 
 type Model struct {
-	Music     []string
-	Cursor    int
+	Cursor int
+	Music  Music
+}
+
+type Music struct {
+	Songs     []string
 	Directory string
 	Current   string
+	IsPaused  bool
 }
 
 func InitialModel() Model {
 	dir := "/home/udev/Music/lyra"
 	return Model{
-		Directory: dir,
-		Cursor:    0,
-		Music:     metadata.GetMusicNames(dir),
+		Cursor: 0,
+		Music: Music{
+			Songs:     metadata.GetMusicNames(dir),
+			Directory: dir,
+		},
 	}
 }
 

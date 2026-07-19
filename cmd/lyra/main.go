@@ -7,6 +7,7 @@ import (
 	"github.com/umarbek-x/LYRA/internals/tui"
 )
 
+
 func main() {
 	p := tea.NewProgram(tui.InitialModel())
 	if _, err := p.Run(); err != nil {
