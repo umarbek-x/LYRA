@@ -2,6 +2,7 @@ package tui
 
 import (
 	"fmt"
+	"strings"
 
 	tea "charm.land/bubbletea/v2"
 )
@@ -12,11 +13,12 @@ func (m Model) View() tea.View {
 
 	// Iterate over our music
 	for i, music := range m.Music {
-
-		if m.Cursor != i {
-			s += fmt.Sprintf("%d. [%s] %s\n", i+1, " ", music)
+		var cursor = " "
+		if m.Cursor == i {
+			cursor = ">"
 		}
-		s += fmt.Sprintf("%d. [%s] %s\n", i+1, ">", music)
+		
+		s += fmt.Sprintf("[%s] %s\n", cursor, strings.TrimSuffix(music, ".mp3"))
 
 	}
 

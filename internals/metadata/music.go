@@ -20,10 +20,10 @@ func GetMusicNames(directory string) []string {
 	for _, v := range enteries {
 		// check if it is type mp3 but with file name not its type, it might be not accurat but for this level it is fine
 		if strings.Contains(v.Name(), ".mp3") {
-			// trim suffix .mp3 so it is more orgonized
-			songName := strings.TrimSuffix(v.Name(), ".mp3")
+			// // trim suffix .mp3 so it is more orgonized
+			// songName := strings.TrimSuffix(v.Name(), ".mp3")
 			// append to the list above
-			names = append(names, songName)
+			names = append(names, v.Name())
 		}
 	}
 	return names
