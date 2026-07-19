@@ -3,52 +3,37 @@ name: Release
 on:
   push:
     tags:
-      - 'v*'
+      - "v*"
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  release:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        include:
-          - goos: linux
-            goarch: amd64
-            binary: lyra-linux-amd64
-
-          - goos: linux
-            goarch: arm64
-            binary: lyra-linux-arm64
-
-          - goos: windows
-            goarch: amd64
-            binary: lyra-windows-amd64.exe
-
-          - goos: darwin
-            goarch: amd64
-            binary: lyra-macos-intel
-
-          - goos: darwin
-            goarch: arm64
-            binary: lyra-macos-apple
-
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-go@v5
+      - name: Setup Go
+        uses: actions/setup-go@v5
         with:
-          go-version: '1.26'
+          go-version: "1.26"
+          cache: true
 
-      - run: |
-          GOOS=${{ matrix.goos }} \
-          GOARCH=${{ matrix.goarch }} \
-          go build -ldflags="-s -w" \
-          -o ${{ matrix.binary }} \
-          ./cmd/lyra
-
-      - uses: softprops/action-gh-release@v2
+      - name: Install GoReleaser
+        uses: goreleaser/goreleaser-action@v6
         with:
-          files: ${{ matrix.binary }}
+          version: latest
+
+      - name: Verify project builds
+        run: go build ./...
+
+      - name: Release
+        uses: goreleaser/goreleaser-action@v6
+        with:
+          version: latest
+          args: release --clean
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

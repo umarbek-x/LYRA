@@ -3,7 +3,7 @@ package tui
 import (
 	tea "charm.land/bubbletea/v2"
 	"github.com/gopxl/beep/speaker"
-	"github.com/umarbek-x/LYRA/internals/player"
+	"github.com/umarbek-x/LYRA/internal/player"
 )
 
 func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {

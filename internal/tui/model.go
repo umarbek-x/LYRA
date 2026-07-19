@@ -2,7 +2,7 @@ package tui
 
 import (
 	tea "charm.land/bubbletea/v2"
-	"github.com/umarbek-x/LYRA/internals/metadata"
+	"github.com/umarbek-x/LYRA/internal/metadata"
 )
 
 type Model struct {

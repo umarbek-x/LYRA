@@ -4,9 +4,8 @@ import (
 	"log"
 
 	tea "charm.land/bubbletea/v2"
-	"github.com/umarbek-x/LYRA/internals/tui"
+	"github.com/umarbek-x/LYRA/internal/tui"
 )
-
 
 func main() {
 	p := tea.NewProgram(tui.InitialModel())
