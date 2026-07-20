@@ -1,6 +1,6 @@
 version: 2
 
-project_name: lyra
+project_name: LYRA
 
 before:
   hooks:
@@ -13,27 +13,19 @@ builds:
 
     goos:
       - linux
-      - windows
-      - darwin
 
     goarch:
       - amd64
-      - arm64
 
 archives:
   - id: default
     formats: [tar.gz]
-
-    format_overrides:
-      - goos: windows
-        formats: [zip]
+    files:
+      - README.md
+      - LICENSE
 
 checksum:
   name_template: checksums.txt
 
-changelog:
-  use: github
-
 release:
   draft: false
-  prerelease: auto
