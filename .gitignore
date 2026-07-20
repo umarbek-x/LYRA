@@ -8,3 +8,7 @@ dist/
 
 # macOS
 .DS_Store
+
+/dist
+/lyra
+/lyra.exe

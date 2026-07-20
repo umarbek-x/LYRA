@@ -19,11 +19,11 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
-          go-version: "1.26"
+          go-version-file: go.mod
           cache: true
 
       - name: Verify project builds
-        run: go build ./...
+        run: go build ./cmd/lyra
 
       - name: Release
         uses: goreleaser/goreleaser-action@v6
