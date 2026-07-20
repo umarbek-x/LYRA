@@ -1,0 +1,10 @@
+# Binaries
+lyra
+*.exe
+dist/
+
+# IDE
+.vscode/
+
+# macOS
+.DS_Store

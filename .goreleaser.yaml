@@ -8,18 +8,15 @@ before:
 
 builds:
   - id: lyra
-    main: ./cmd/lyra
     binary: lyra
-
+    main: ./cmd/lyra
     goos:
       - linux
-
     goarch:
       - amd64
 
 archives:
-  - id: default
-    formats: [tar.gz]
+  - formats: [tar.gz]
     files:
       - README.md
       - LICENSE
