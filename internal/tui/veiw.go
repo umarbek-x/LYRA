@@ -15,6 +15,7 @@ var (
 )
 
 func (m Model) View() tea.View {
+
 	// The header
 	s := AppNameStyle.Render("Lyra Music Streaming CLI Platform") + "\n\n"
 	// s := "Lyra Music Streaming CLI Platform \n\n"

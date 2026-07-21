@@ -31,6 +31,7 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 				m.Music.IsPaused = true
 			}
 		case "enter", "space":
+
 			go func() {
 				m.Music.Current = m.Music.Songs[m.Cursor]
 				player.Play(m.Music.Directory + "/" + m.Music.Current)

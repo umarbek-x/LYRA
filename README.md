@@ -23,6 +23,7 @@ Extract it:
 tar -xzf LYRA_1.0.2_linux_amd64.tar.gz
 ```
 
+<<<<<<< HEAD
 Make it executable:
 
 ```bash
@@ -84,3 +85,7 @@ Contributions, bug reports, and feature requests are welcome.
 ## License
 
 MIT License.
+=======
+## Screenshots
+
+>>>>>>> 14d7db9 (fixed bug with audio directory)
