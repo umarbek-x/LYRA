@@ -1,5 +1,7 @@
 # 🎵 LYRA
 
+(https://www.vecteezy.com/vector-art/45742674-pixel-art-illustration-jellyfish-pixelated-jellyfish-jellyfish-pixelated-for-the-pixel-art-game-and-icon-for-website-and-game-old-school-retro)
+
 A lightweight terminal music player written in Go.
 
 ![Go](https://img.shields.io/badge/Go-1.26-blue)
