@@ -1,6 +1,5 @@
 # 🎵 LYRA
 
-(https://www.google.com/search?q=penguin+picture+pexel+style+&client=ubuntu-sn&hs=oUQ&sca_esv=a4aa018d8e4a65dc&channel=fs&udm=2&biw=1920&bih=963&sxsrf=APpeQnuIBHa7olgcKb1vq7Bh_cKcn4DCgA%3A1784602943482&ei=P-FeauiKHaioxc8Pgvv12Aw&ved=0ahUKEwiopouE5OKVAxUoVPEDHYJ9HcsQ4dUDCBE&uact=5&oq=penguin+picture+pexel+style+&gs_lp=Egtnd3Mtd2l6LWltZyIccGVuZ3VpbiBwaWN0dXJlIHBleGVsIHN0eWxlIEj6HlBJWKoecAJ4AJABAZgBkAGgAeYMqgEEMS4xM7gBA8gBAPgBAZgCBKAChQPCAgYQABgHGB7CAgUQABiABMICBxAAGIAEGArCAgYQABgeGArCAgQQABgewgIGEAAYCBgemAMAiAYBkgcDMS4zoAerD7IHAzAuM7gHgAPCBwMyLTTIBxGACAE&sclient=gws-wiz-img#ip=1&sv=CAMSURoyKhBlLWEtUTdGM3hsRDhVaVVNMg5hLVE3RjN4bEQ4VWlVTToOOGhqRWI0OVZlVXJCYU0gBCoXCgFzEhBlLWEtUTdGM3hsRDhVaVVNGAEwARgHIMiD5pYFSggQARgBIAEoAQ)
 
 A lightweight terminal music player written in Go.
 
